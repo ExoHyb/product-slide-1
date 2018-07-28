@@ -58,6 +58,23 @@ img {
       border-radius: 1px;
       transition: -webkit-transform 400ms ease, transform 400ms ease; }
 
+.price {
+  display: flex;
+  align-items: center; }
+  .price p {
+    margin-bottom: 0; }
+  .price .current-price {
+    font-size: 18px;
+    margin-right: 15px; }
+    .price .current-price.sold {
+      font-size: .9em;
+      text-decoration: line-through; }
+  .price .promo-price {
+    font-size: 18px;
+    color: #D01345;
+    margin-right: 15px;
+    font-weight: bold; }
+
 .fitguide-modal {
   display: none;
   z-index: 9000;

@@ -34,7 +34,10 @@
             <?php include 'templates/images-product.php'; ?>
             <div class="col-xs-12 col-sm-4">
                 <h1>Only Play - Leggings de sport </h1>
-
+                <div class="price">
+                    <p class="promo-price">23,99€</p>
+                    <p class="current-price">34,99€</p>
+                </div>
                 <a href="#" id="link-fitguide">Guide des tailles</a>
             </div>
         </section>

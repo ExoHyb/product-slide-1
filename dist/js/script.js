@@ -31,3 +31,7 @@ $('.close-modal, .fitguide-overlay').on('click', function(e){
     $('.fitguide-modal').hide();
     e.preventDefault();
 });
+
+if ($('.promo-price').length > 0) {
+    $('.current-price').addClass('sold');
+}
