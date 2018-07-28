@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="dist/css/style.css">
-    <title>Product slide Nike</title>
+    <title>Example for Product Page</title>
 </head>
 <body>
 
