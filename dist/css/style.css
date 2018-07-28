@@ -8,7 +8,6 @@ body {
 .title {
   display: block;
   margin: 0;
-  font-family: "Roboto Condensed", sans-serif;
   font-weight: 400; }
   .title a {
     display: block;
@@ -58,6 +57,9 @@ img {
       border-radius: 1px;
       transition: -webkit-transform 400ms ease, transform 400ms ease; }
 
+.product-name {
+  font-size: 1.25rem; }
+
 .price {
   display: flex;
   align-items: center; }
@@ -67,7 +69,7 @@ img {
     font-size: 18px;
     margin-right: 15px; }
     .price .current-price.sold {
-      font-size: .9em;
+      font-size: .8em;
       text-decoration: line-through; }
   .price .promo-price {
     font-size: 18px;

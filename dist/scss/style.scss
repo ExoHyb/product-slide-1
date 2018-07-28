@@ -1,7 +1,7 @@
 @import "variables";
 
 body {
-    font-family: $font;
+    font-family: $font-family-base;
     cursor: default;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -11,8 +11,7 @@ body {
 .title {
     display: block;
     margin: 0;
-    font-family: $font;
-    font-weight: $regular;
+    font-weight: $font-weight-normal;
     a {
         display: block;
         color: inherit;
@@ -71,6 +70,10 @@ img {
             transition: -webkit-transform 400ms ease, transform 400ms ease;
         }
     }
+}
+
+.product-name {
+    font-size: $h5-font-size;
 }
 
 .price {
