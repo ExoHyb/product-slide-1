@@ -2,7 +2,8 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   cursor: default;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  z-index: 0; }
 
 .title {
   display: block;
@@ -56,3 +57,28 @@ img {
       align-items: stretch;
       border-radius: 1px;
       transition: -webkit-transform 400ms ease, transform 400ms ease; }
+
+.fitguide-modal {
+  display: none;
+  z-index: 9000;
+  position: fixed;
+  height: 100%;
+  width: 100%; }
+  .fitguide-modal .wrapper-fitguide {
+    position: fixed;
+    width: 365px;
+    height: 100%;
+    padding: 0 40px 0 50px;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    background-color: #FFF;
+    z-index: 10002; }
+  .fitguide-modal .fitguide-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10001; }
