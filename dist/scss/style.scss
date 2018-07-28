@@ -1,8 +1,4 @@
-$font: 'Roboto Condensed', sans-serif;
-$light: 300;
-$regular: 400;
-$bold: 700;
-$red: #D01345;
+@import "variables";
 
 body {
     font-family: $font;
