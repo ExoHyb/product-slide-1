@@ -38,6 +38,7 @@
                     <p class="promo-price">23,99€</p>
                     <p class="current-price">34,99€</p>
                 </div>
+                <p id="livraison">Livraison et retour gratuits *</p>
                 <a href="#" id="link-fitguide">Guide des tailles</a>
             </div>
         </section>
