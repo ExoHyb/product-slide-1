@@ -14,7 +14,6 @@
             <?php include 'templates/infos-product.php'; ?>
         </section>
     </main>
-
     <?php include 'templates/scripts.php'; ?>
 </body>
 </html>

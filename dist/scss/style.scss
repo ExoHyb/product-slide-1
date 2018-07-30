@@ -77,6 +77,7 @@ img {
 }
 
 .price {
+    margin-top: 15px;
     display: flex;
     align-items: center;
     p {
@@ -133,4 +134,51 @@ img {
         width: 100%;
         z-index: 10001;
     }
+}
+
+.right-column {
+    padding-left: 20px;
+}
+
+#product-description {
+    font-size: .9em;
+    color: $gray-700;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+#livraison {
+    margin-top: 15px;
+    color: $gray-700;
+    text-decoration: underline;
+    font-size: .9em;
+}
+
+.form-group {
+    label {
+        text-transform: uppercase;
+        font-weight: $font-weight-bold;
+        font-size: .9em;
+    }
+    @at-root #link-fitguide {
+        float: right;
+        text-decoration: underline;
+        font-size: .9em;
+        color: $gray-700;
+        margin-top: 3px;
+    }
+    select {
+        border-radius: 0;
+        color: $gray-700;
+        font-size: .8em;
+    }
+}
+
+.btn-add-to-cart {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    border-radius: 0;
+    font-weight: $font-weight-light;
+    letter-spacing: 1px;
 }
