@@ -1,0 +1,45 @@
+.wrapper-modal-delivery {
+    .title-delivery {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: $font-weight-bold;
+    }
+    .table-delivery {
+        border-top: solid 1px #999;
+        border-bottom: solid 1px #999;
+        thead {
+            .subtitle-delivery {
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: $font-weight-bold;
+                td {
+                    padding-top: 20px;
+                }
+            }
+            .tr-head-delivery {
+                font-weight: $font-weight-bold;
+                text-transform: uppercase;
+                font-size: .9em;
+                td {
+                    padding: 5px;
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    font-size: .9em;
+                    padding: 5px;
+                    &:first-child {
+                        font-weight: $font-weight-bold;
+                    }
+                }
+                &:last-child {
+                    td {
+                        padding-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

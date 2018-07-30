@@ -13,6 +13,7 @@
             <?php include 'templates/images-product.php'; ?>
             <?php include 'templates/infos-product.php'; ?>
         </section>
+        <?php include 'templates/modal-livraison.php'; ?>
     </main>
     <?php include 'templates/scripts.php'; ?>
 </body>

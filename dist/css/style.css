@@ -1,3 +1,30 @@
+.wrapper-modal-delivery .title-delivery {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700; }
+.wrapper-modal-delivery .table-delivery {
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #999; }
+  .wrapper-modal-delivery .table-delivery thead .subtitle-delivery {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700; }
+    .wrapper-modal-delivery .table-delivery thead .subtitle-delivery td {
+      padding-top: 20px; }
+  .wrapper-modal-delivery .table-delivery thead .tr-head-delivery {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .9em; }
+    .wrapper-modal-delivery .table-delivery thead .tr-head-delivery td {
+      padding: 5px; }
+  .wrapper-modal-delivery .table-delivery tbody tr td {
+    font-size: .9em;
+    padding: 5px; }
+    .wrapper-modal-delivery .table-delivery tbody tr td:first-child {
+      font-weight: 700; }
+  .wrapper-modal-delivery .table-delivery tbody tr:last-child td {
+    padding-bottom: 20px; }
+
 body {
   font-family: "Roboto Condensed", sans-serif;
   cursor: default;
